@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+android:layout_marginTop="40dp"
+        android:id="@+id/firstNameLayout"
+      >
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="First Name"
+android:layout_marginTop="20dp"
+        android:textColor="#6d6e71"
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Last Name"
+
+        android:layout_marginTop="20dp"
+
+        android:textColor="#6d6e71"
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+
+        android:hint="Phone Number"
+
+        android:textColorHint="#f7941e"
+
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+
+        android:hint="E_mail "
+
+        android:textColor="#6d6e71"
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:hint="Password "
+
+        android:textColor="#6d6e71"
+        android:textSize="20sp">
+    </EditText>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/Submit"
+            />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#A1887F" >
+
+
+
+
+
+
+        <Button
+            android:layout_width="333dp"
+            android:layout_height="80dp"
+            android:text="Ajouter un nouveau Livre ! "
+            android:textColor="#D7CCC8"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="75dp"
+            android:background="#795548"
+            android:layout_marginBottom="13dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="333dp"
+            android:layout_height="75dp"
+            android:text="Mes préférés"
+            android:textColor="#D7CCC8"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#795548"
+            android:layout_marginBottom="13dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="333dp"
+            android:layout_height="75dp"
+            android:text="Tous les livres "
+            android:textColor="#D7CCC8"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#795548"
+            android:layout_marginBottom="13dp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:layout_width="333dp"
+            android:layout_height="75dp"
+            android:text="Comment ça Marche ? "
+            android:textColor="#D7CCC8"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#795548"
+            android:layout_marginBottom="55dp"
+            android:layout_gravity="center"
+            />
+
+
+
+
+
+</LinearLayout>
